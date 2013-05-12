@@ -31,8 +31,9 @@ public class Triangle
 		double b = p2.dist(p3);
 		double c = p3.dist(p1);
 		
+		// Satz des Heron
 		double sqrt = Math.sqrt((a + b + c) * (a + b - c) * (b + c - a) * (c + a - b));
-		sqrt *= (double) 1/4;
+		sqrt *=  1.0/4.0;
 
 		return sqrt;
 	}

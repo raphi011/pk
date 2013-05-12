@@ -29,8 +29,8 @@ public class Point
 	
 	public Point middle(Point p)
 	{
-		double nX = (this.x - p.x) / 2;
-		double nY = (this.y - p.y) / 2;
+		double nX = (this.x + p.x) / 2;
+		double nY = (this.y + p.y) / 2;
 		
 		return new Point(nX, nY);
 	}
