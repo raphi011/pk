@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class MyStringArrayIterator implements Iterator<String> {
 
 	String[] array; 
